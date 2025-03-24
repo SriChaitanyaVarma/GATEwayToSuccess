@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GATEway To Success</title>
+    <link rel="stylesheet" href="gate1.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="left-section">
+            <div class="logo-container">
+                <img src="image.png" alt="GATEway To Success Logo" class="logo-image">
+            </div>
+            
+            <div class="logo">GATEway To Success</div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="gate1.html">Home</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="mocks.html">Mocks</a></li>
+            <li><a href="about.html">About</a></li>
+            <li id="auth-button">Loading
+
+                <!-- Button will be inserted here dynamically -->
+            </li>
+        </ul>
+    </nav>
+
+    <div class="quote">Your Personalized Roadmap to GATE Success</div>
+
+    <section class="hero">
+        <h1>GATE</h1>
+    </section>
+
+    <section class="options">
+        <a href="signin.html" id="signin" class="option-link">
+            <div class="option-box">Start Your Journey</div>
+        </a>
+        <a href="roadmap.html" class="option-link">
+            <div class="option-box">Get Personalised Roadmap</div>
+        </a>
+        <a href="after-gate.html" class="option-link">
+            <div class="option-box">After GATE What’s next?</div>
+        </a>
+    </section>
+    
+
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js"></script>
+    <script src="auth.js" type="module"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const optionBoxes = document.querySelectorAll(".option-box");
+    
+            optionBoxes.forEach((box, index) => {
+                box.style.opacity = "0"; // Initially hidden
+                box.style.transform = "translateY(20px)"; // Start position
+    
+                setTimeout(() => {
+                    box.style.transition = "opacity 0.8s ease, transform 0.8s ease";
+                    box.style.opacity = "1"; // Fade in
+                    box.style.transform = "translateY(0)";
+    
+                    // Re-enable hover effect AFTER animation
+                    setTimeout(() => {
+                        box.style.transition = "transform 0.3s ease"; // Keeps hover effect smooth
+                    }, 800); // Matches animation duration
+                }, index * 500); // Delay increases for each box
+            });
+        });
+    </script>
+    
+    
+</body>
+
+</html>

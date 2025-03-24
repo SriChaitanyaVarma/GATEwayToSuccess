@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Results | GATEway To Success</title>
+    <link rel="stylesheet" href="results.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js for Pie Chart -->
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">GATEway To Success</div>
+        <button onclick="retakeTest()" class="retake-btn">Retake Test</button>
+    </nav>
+
+    <div class="results-container">
+        <h1>Test Results</h1>
+        <canvas id="resultChart"></canvas> <!-- Pie Chart -->
+        
+        <h2>Weak Areas</h2>
+        <ul id="weakAreasList"></ul>
+
+        <button class="review-btn" onclick="reviewTest()">Review Test</button>
+    </div>
+
+    <script src="result.js"></script>
+</body>
+</html>

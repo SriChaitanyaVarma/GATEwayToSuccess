@@ -1,0 +1,202 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: white;
+}
+/* Logo Styling */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    height: 33px; /* Adjust height as needed */
+    width: auto;
+}
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: linear-gradient(to right, #0099a7, #004c5c);
+    color: white;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li a,
+.nav-links li button {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: none;
+    border: none;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+/* Page Header */
+.page-header {
+    text-align: center;
+    padding: 30px 20px;
+    background: white;
+    font-size: 24px;
+    font-weight: bold;
+    color: #004c5c;
+    margin-bottom: 20px;
+}
+
+/* Form Container */
+.form-container {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(to right, #0099a7, #004c5c);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+form button {
+    padding: 12px;
+    background: white;
+    color: #0099a7;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    text-align: center;
+}
+
+form button:hover {
+    background: #e0f7fa;
+}
+
+/* Roadmap Container */
+.roadmap-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.roadmap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Roadmap Display Section */
+#roadmap-container {
+    display: none; /* Initially hidden */
+    margin-top: 50px;
+    text-align: center;
+    width: 80%;
+    max-width: 900px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 28px;
+}
+
+/* Flowchart Styling */
+.roadmap-flowchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Individual Roadmap Steps */
+.roadmap-step {
+    padding: 15px;
+    border-radius: 12px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to right, #0099a7, #004c5c); /* Gradient Color */
+    border:none;
+    position: relative;
+    transition:transform 0.3s ease;
+}
+.roadmap-step:hover {
+    transform: translateY(-5px);
+}
+
+/* Arrow Styling */
+.arrow {
+    font-size: 30px;
+    font-weight: bold;
+    color: #004c5c;
+}
+
+/* Arrow Symbol Styling */
+.roadmap-arrow {
+    font-size: 24px;
+    font-weight: bold;
+    color: #004c5c;
+    margin: 5px 0;
+}

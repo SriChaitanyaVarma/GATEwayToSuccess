@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to top, #0099a7, #004c5c);
+}
+
+.heading {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom:20px;
+}
+
+/* FORM CONTAINER */
+.container {
+    height: 600px;
+    width: 500px;
+    background: #ffffff;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* BUTTON TOGGLE */
+.btn {
+    height: 60px;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #e0f7fa;
+    position: relative;
+}
+
+.login, .signup {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-weight: 500;
+    color: #004c5c;
+    transition: color 0.3s ease-in-out;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+/* SLIDER BUTTON */
+.slider {
+    height: 60px;
+    width: 150px;
+    border-radius: 50px;
+    background: linear-gradient(to right, #0099a7, #004c5c);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+}
+
+/* Make active text white */
+.active {
+    color: white !important;
+}
+
+
+/* FORM SECTION */
+.form-section {
+    height: 500px;
+    width: 1000px;
+    padding: 20px 0;
+    display: flex;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    left: 0px;
+}
+
+.form-section-move {
+    left: -500px;
+}
+
+.login-box, .signup-box {
+    height: 100%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 40px;
+    gap: 20px; /* Adjusted spacing */
+}
+.input-ele{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+    gap:40px;
+}
+/* INPUT FIELDS */
+.ele {
+    height: 50px;
+    width: 400px;
+    outline: none;
+    border: none;
+    color: #004c5c;
+    background: #e0f7fa;
+    border-radius: 50px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+/* SELECT DROPDOWN */
+select.ele {
+    appearance: none;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+/* BUTTON */
+.clkbtn {
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    background: linear-gradient(to right, #0099a7, #004c5c);
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.clkbtn:hover {
+    background: linear-gradient(to right, #004c5c, #002a33);
+}
+.error-message {
+    color: #004553; /* Adjusted for error message */
+    font-size: 18px;
+    margin-top: 8px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+/* RESPONSIVENESS */
+@media screen and (max-width: 650px) {
+    .container {
+        width: 300px;
+    }
+
+    .btn {
+        width: 200px;
+    }
+
+    .slider {
+        width: 100px;
+    }
+
+    .moveslider {
+        left: 100px;
+    }
+
+    .ele {
+        width: 250px;
+        font-size: 14px;
+    }
+
+    .clkbtn {
+        width: 130px;
+        font-size: 16px;
+    }
+}

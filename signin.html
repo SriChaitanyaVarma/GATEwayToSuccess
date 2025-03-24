@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GATEway To Success</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="heading">GATEway To Success</h1>
+    </header>
+
+    <div class="container">
+        <div class="btn">
+            <button class="login active">Login</button>
+            <button class="signup">Signup</button>
+            <div class="slider"></div>
+        </div>
+
+        <div class="form-section">
+            <!-- Login Form -->
+            <div class="login-box">
+                <div class="input-ele">
+                <input type="email" class="ele" placeholder="youremail@email.com">
+                <input type="password" class="ele" placeholder="password">
+                </div>
+                <button class="clkbtn">Login</button>
+            </div>
+
+            <!-- Signup Form -->
+            <div class="signup-box">
+                <input type="text" class="ele" placeholder="Your Name">
+                <select class="ele">
+                    <option value="" disabled selected>Select Your Stream</option>
+                    <option value="CSE">Computer Science (CSE)</option>
+                    <option value="ECE">Electronics & Communication (ECE)</option>
+                    <option value="EEE">Electrical Engineering (EEE)</option>
+                    <option value="MECH">Mechanical Engineering (MECH)</option>
+                    <option value="CIVIL">Civil Engineering (CIVIL)</option>
+                </select>
+                <input type="email" class="ele" placeholder="youremail@email.com">
+                <input type="password" class="ele" placeholder="password">
+                <button class="clkbtn">Signup</button>
+            </div>
+            <p id="message"></p>
+        </div>
+    </div>
+
+    <script type="module" src="firebase.js"></script>
+    <script type="module" src="signin.js"></script>
+    <script type="module" src="auth.js"></script>
+
+</body>
+</html>

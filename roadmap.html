@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Roadmap | GATEway To Success</title>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="roadmap.css"> 
+
+    <!-- Firebase -->
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="left-section">
+            <div class="logo-container">
+                <img src="image.png" alt="GATEway To Success Logo" class="logo-image">
+            </div>
+            <div class="logo">GATEway To Success</div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="gate1.html">Home</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="mocks.html">Mocks</a></li>
+            <li><a href="about.html">About</a></li>
+            <li id="auth-button">Loading
+
+                <!-- Button will be inserted here dynamically -->
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <h1>Personalized Study Roadmap</h1>
+        <p>Create a study plan tailored to your strengths, weaknesses, and available time.</p>
+    </header>
+
+    <!-- User Input Form -->
+    <div class="form-container">
+        <form id="roadmap-form">
+            <label for="interest">Your Interests:</label>
+            <input type="text" id="interest" placeholder="e.g., Algorithms, Data Structures">
+
+            <label for="strong-subjects">Strong Subjects:</label>
+            <input type="text" id="strong-subjects" placeholder="e.g., OS, DBMS">
+
+            <label for="weak-subjects">Weak Subjects:</label>
+            <input type="text" id="weak-subjects" placeholder="e.g., TOC, Networks">
+
+            <label for="study-hours">Daily Study Hours:</label>
+            <input type="number" id="study-hours" min="1" max="12" placeholder="e.g., 4">
+
+            <button id="generate-roadmap">Generate Roadmap</button>
+        </form>
+    </div>
+
+    <!-- Roadmap Display Section -->
+    <div id="roadmap-container" class="roadmap-section">
+        <div class="roadmap">
+            <div class="roadmap-step strong">Strong Subjects 📘 <br> OS, DBMS <br> ⏳ 1.6 hours/day</div>
+            <div class="arrow">↓</div>
+            <div class="roadmap-step weak">Weak Subjects 🔴 <br> Data Structures, Algorithms <br> ⏳ 2.0 hours/day</div>
+            <div class="arrow">↓</div>
+            <div class="roadmap-step revision">Mock Tests & Revision 📝 <br> Practice Tests <br> ⏳ 0.4 hours/day</div>
+            <div class="arrow">↓</div>
+            <div class="roadmap-step success">Success 🎯 <br> Achieve Your GATE Goal!</div>
+        </div>
+    </div>
+
+    <script type="module" src="auth.js"></script>
+    <script type="module" src="roadmap.js"></script>
+
+</body>
+</html>

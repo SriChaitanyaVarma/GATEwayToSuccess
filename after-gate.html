@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>After GATE | GATEway To Success</title>
+    <link rel="stylesheet" href="after-gate.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="left-section">
+            <div class="logo-container">
+                <img src="image.png" alt="GATEway To Success Logo" class="logo-image">
+            </div>
+            <div class="logo">GATEway To Success</div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="gate1.html">Home</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="mocks.html">Mocks</a></li>
+            <li><a href="about.html">About</a></li>
+            <li id="auth-button">Loading
+
+                <!-- Button will be inserted here dynamically -->
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <h1>After GATE: What's Next?</h1>
+        <p>Explore career opportunities, higher studies, and other options after GATE.</p>
+    </header>
+
+   <!-- Options Section -->
+<section class="options-section">
+    <div class="option-box">
+        <h2>🎓 Higher Studies</h2>
+        <p>Pursue M.Tech, MS, or Ph.D. at IITs, NITs, and other top institutes.</p>
+        <a href="#higher-studies">Learn More</a>
+    </div>
+
+    <div class="option-box">
+        <h2>🏢 PSU Jobs</h2>
+        <p>Apply for top Public Sector Units (PSUs) like ONGC, IOCL, BHEL, and more.</p>
+        <a href="#psu-jobs">Explore Jobs</a>
+    </div>
+
+    <div class="option-box">
+        <h2>🌍 Study Abroad</h2>
+        <p>Use your GATE score to study in foreign universities like NUS, NTU, and TU Munich.</p>
+        <a href="#study-abroad">Check Eligibility</a>
+    </div>
+
+    <div class="option-box">
+        <h2>💼 Private Sector</h2>
+        <p>Secure roles in R&D, software development, and engineering firms.</p>
+        <a href="#private-sector">Find Opportunities</a>
+    </div>
+</section>
+
+<!-- Information Sections -->
+<section id="higher-studies" class="info-section">
+    <h2>Higher Studies</h2>
+    <ul>
+        <li>Specializations in various engineering fields.</li>
+        <li>Research opportunities in IITs, NITs, IIITs, and abroad.</li>
+        <li>Scholarships and financial aid for GATE-qualified students.</li>
+    </ul>
+</section>
+
+<section id="psu-jobs" class="info-section">
+    <h2>PSU Jobs</h2>
+    <ul>
+        <li>Apply to ONGC, IOCL, BHEL, GAIL, and other top PSUs.</li>
+        <li>High job security and excellent salary packages.</li>
+        <li>Work in core engineering domains.</li>
+    </ul>
+</section>
+
+<section id="study-abroad" class="info-section">
+    <h2>Study Abroad</h2>
+    <ul>
+        <li>GATE score accepted at NUS, NTU, TU Munich, etc.</li>
+        <li>Opportunities for research-based master's and Ph.D. programs.</li>
+        <li>Global exposure and world-class education.</li>
+    </ul>
+</section>
+
+<section id="private-sector" class="info-section">
+    <h2>Private Sector</h2>
+    <ul>
+        <li>Software, R&D, and core engineering roles.</li>
+        <li>Job opportunities in companies like Google, Microsoft, Intel, etc.</li>
+        <li>Competitive salaries and career growth.</li>
+    </ul>
+</section>
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            const targetSection = document.querySelector(this.getAttribute("href"));
+            window.scrollTo({
+                top: targetSection.offsetTop - 80, // Adjusts for navbar height
+                behavior: "smooth"
+            });
+        });
+    });
+    </script>
+    
+<script type="module" src="auth.js"></script>
+</body>
+</html>

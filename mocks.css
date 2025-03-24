@@ -1,0 +1,161 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: white;
+}
+/* Logo Styling */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    height: 33px; /* Adjust height as needed */
+    width: auto;
+}
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: linear-gradient(to right, #0099a7, #004c5c);
+    color: white;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li a,
+.nav-links li button { 
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: none;
+    border: none;
+    font-size: inherit;
+    cursor: pointer;
+}
+/* Page Header */
+.page-header {
+    text-align: center;
+    padding: 50px 20px;
+    background: white;
+    font-size: 24px;
+    font-weight: bold;
+    color: #004c5c;
+    margin-bottom: 20px;
+}
+
+/* Search Bar */
+.search-container {
+    text-align: center;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#search-bar {
+    width: 50%;
+    padding: 12px;
+    border: 2px solid #0099a7;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Gradient Search Button */
+.search-container button {
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #0099a7, #004c5c);
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.search-container button:hover {
+    background: linear-gradient(to right, #004c5c, #0099a7);
+}
+
+/* Mocks Sections */
+.mocks-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.mock-category {
+    background: linear-gradient(to right, #0099a7, #004c5c);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.mock-category:hover {
+    transform: translateY(-5px);
+}
+
+.mock-category h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.mock-category p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.mock-category button {
+    display: inline-block;
+    padding: 10px 15px;
+    background: white;
+    color: #0099a7;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border:none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.mock-category button:hover {
+    background: #e0f7fa;
+    color: #004c5c;
+}

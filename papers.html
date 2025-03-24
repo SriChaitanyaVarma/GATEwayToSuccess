@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previous Year Papers | GATEway To Success</title>
+    <link rel="stylesheet" href="resources.css"> <!-- Reusing the existing CSS -->
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="left-section">
+            <div class="logo-container">
+                <img src="image.png" alt="GATEway To Success Logo" class="logo-image">
+            </div>
+            <div class="logo">GATEway To Success</div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="gate1.html">Home</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="mocks.html">Mocks</a></li>
+            <li><a href="about.html">About</a></li>
+            <li id="auth-button">Loading
+
+                <!-- Button will be inserted here dynamically -->
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <h1>GATE Previous Year Papers</h1>
+        <p>Download past GATE question papers for practice.</p>
+    </header>
+
+    <!-- Search Bar -->
+    <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Search for papers..." onkeyup="searchPapers()">
+        <button onclick="searchPapers()">Search</button>
+    </div>
+
+    <!-- Papers Section -->
+    <section class="resources-section" id="papers-container">
+        <!-- Papers will be loaded dynamically here -->
+    </section>
+
+    <script src="papers.js"></script>
+</body>
+</html>

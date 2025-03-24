@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: white;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    height: 33px;
+    width: auto;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.left-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: linear-gradient(to right, #0099a7, #004c5c);
+    color: white;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li a,
+.nav-links li button { 
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: none;
+    border: none;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+/* Quote Section */
+.quote {
+    background-color: white;
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #0099a7, #004c5c);
+    padding: 80px 0;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* Options Section */
+.options {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 30px;
+    padding:70px 2px;
+    
+}
+
+.option-box {
+    background: linear-gradient(to right, #0099a7, #004c5c);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 30px;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.option-box.show {
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+
+.option-box:hover {
+    transform: scale(1.1) rotate(2deg); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+}
+
+
+.options a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.options a:visited {
+    color: white;
+}
+.option-link {
+    text-decoration: none; 
+    display: block;}
+

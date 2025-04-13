@@ -18,9 +18,9 @@ Design Tools: Employs Figma for prototyping and designing intuitive UI elements 
 
 Development Challenges Addressed:
 
-User-Friendly Interface: Crafted an intuitive design accommodating aspirants from diverse engineering backgrounds, ensuring ease of navigation and usability.       ​
-Dynamic Functionality: Implemented JavaScript-driven features for generating personalized schedules and interactive quizzes, enhancing engagement and adaptability.​ 
-Responsive Design: Ensured seamless accessibility across desktops, tablets, and smartphones, facilitating uninterrupted preparation on-the-go.​                      
+User-Friendly Interface: Crafted an intuitive design accommodating aspirants from diverse engineering backgrounds, ensuring ease of navigation and usability.                                                         ​
+Dynamic Functionality: Implemented JavaScript-driven features for generating personalized schedules and interactive quizzes, enhancing engagement and adaptability.​                                                   
+Responsive Design: Ensured seamless accessibility across desktops, tablets, and smartphones, facilitating uninterrupted preparation on-the-go.​                                                                                
 Balanced Simplicity and Functionality: Focused on essential preparation tools without overwhelming users, maintaining a clean interface that emphasizes core functionalities.​
 
 Conclusion:

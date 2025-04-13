@@ -5,15 +5,15 @@ GATEwayToSuccess is a comprehensive web-based platform meticulously designed to 
 
 Key Features:
 
-Personalized Study Plans: By inputting their target exam date and available daily study hours, users receive a customized study schedule that optimally allocates time across various subjects, ensuring balanced and thorough preparation.​
-Resource Hub: A centralized repository providing easy access to curated study materials, including downloadable PDFs, topic-wise notes, and recommended textbooks, catering to diverse engineering disciplines.​
+Personalized Study Plans: By inputting their target exam date and available daily study hours, users receive a customized study schedule that optimally allocates time across various subjects, ensuring balanced and thorough preparation.​                                                                                           
+Resource Hub: A centralized repository providing easy access to curated study materials, including downloadable PDFs, topic-wise notes, and recommended textbooks, catering to diverse engineering disciplines.​                                                                                                                        
 Mock Tests and Quizzes: Interactive practice sessions simulate the actual GATE exam environment, allowing aspirants to assess their knowledge, identify areas for improvement, and track progress over time.​
 
 Technical Overview:
 
-Frontend Technologies: Built using HTML, CSS, and JavaScript to ensure a responsive and interactive user interface across various devices.​
-Backend and Database : Built using firebase for authentication and firestore for extracting stream-specific resources dynamically.                                  
-Version Control: Utilizes Git for efficient tracking of changes and collaborative development.​
+Frontend Technologies: Built using HTML, CSS, and JavaScript to ensure a responsive and interactive user interface across various devices.​                          
+Backend and Database : Built using firebase for authentication and firestore for extracting stream-specific resources dynamically.                                           
+Version Control: Utilizes Git for efficient tracking of changes and collaborative development.​                                                                      
 Design Tools: Employs Figma for prototyping and designing intuitive UI elements that enhance user experience.​
 
 Development Challenges Addressed:

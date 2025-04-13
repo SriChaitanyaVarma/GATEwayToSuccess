@@ -12,15 +12,15 @@ Mock Tests and Quizzes: Interactive practice sessions simulate the actual GATE e
 Technical Overview:
 
 Frontend Technologies: Built using HTML, CSS, and JavaScript to ensure a responsive and interactive user interface across various devices.​
-Backend and Database : Built using firebase for authentication and firestore for extracting stream-specific resources dynamically.
+Backend and Database : Built using firebase for authentication and firestore for extracting stream-specific resources dynamically.                                  
 Version Control: Utilizes Git for efficient tracking of changes and collaborative development.​
 Design Tools: Employs Figma for prototyping and designing intuitive UI elements that enhance user experience.​
 
 Development Challenges Addressed:
 
-User-Friendly Interface: Crafted an intuitive design accommodating aspirants from diverse engineering backgrounds, ensuring ease of navigation and usability.​
-Dynamic Functionality: Implemented JavaScript-driven features for generating personalized schedules and interactive quizzes, enhancing engagement and adaptability.​
-Responsive Design: Ensured seamless accessibility across desktops, tablets, and smartphones, facilitating uninterrupted preparation on-the-go.​
+User-Friendly Interface: Crafted an intuitive design accommodating aspirants from diverse engineering backgrounds, ensuring ease of navigation and usability.       ​
+Dynamic Functionality: Implemented JavaScript-driven features for generating personalized schedules and interactive quizzes, enhancing engagement and adaptability.​ 
+Responsive Design: Ensured seamless accessibility across desktops, tablets, and smartphones, facilitating uninterrupted preparation on-the-go.​                      
 Balanced Simplicity and Functionality: Focused on essential preparation tools without overwhelming users, maintaining a clean interface that emphasizes core functionalities.​
 
 Conclusion:

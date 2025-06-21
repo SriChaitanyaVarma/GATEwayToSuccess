@@ -1,5 +1,5 @@
 # GATEwayToSuccess
-Gate WEB app
+A Personalised Preparation Companion (Website)
 
 GATEwayToSuccess is a comprehensive web-based platform meticulously designed to assist engineering students in preparing for the Graduate Aptitude Test in Engineering (GATE). Recognizing the challenges aspirants face—such as effective time management, setting realistic goals, and accessing quality study materials—this platform offers a structured and user-friendly solution to streamline the preparation journey.​
 

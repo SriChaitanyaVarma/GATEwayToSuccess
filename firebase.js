@@ -4,13 +4,13 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/10.8.1/firebase
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "Your_API_Key",
-  authDomain: "your_authDomain",
-  projectId: "your_projectId",
-  storageBucket: "your_storageBucket",
-  messagingSenderId: "__",
-  appId: "__",
-  measurementId: "__"
+  apiKey: "AIzaSyBy0t-RjzwZS97UT2sgUbLzU2W-91683j8",
+  authDomain: "gatewaytosuccess-12fce.firebaseapp.com",
+  projectId: "gatewaytosuccess-12fce",Add commentMore actions
+  storageBucket: "gatewaytosuccess-12fce.appspot.com",
+  messagingSenderId: "387573643859",
+  appId: "1:387573643859:web:8afa12dd6c47c4596064a6",
+  measurementId: "G-GQM9BTXR7D"
 };
 
 // Initialize Firebase
